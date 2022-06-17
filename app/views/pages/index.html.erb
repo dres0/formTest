@@ -1,0 +1,29 @@
+<%# PRIMER FORMULARIO %>
+<%# 
+<h1> Nuestro primer formulario </h1>
+<form>
+    <input name="email">
+    <input type="submit" value="Enviar">
+</form> %>
+<%# <%= params[:email] %>
+
+
+
+<%# SUMO Y MUESTRO CON PARAMS %>
+<%#
+<h1> El resultado de la suma es:
+<%= params[:x].to_i + params[:y].to_i %>
+<%# </h1>
+<form method="get" action="/pages/create">
+    <input name="x">
+    <input name="y">
+    <input type="submit" value="Enviar"> %>
+<%# </form> %>
+
+<h1> Form 2.0 </h1>
+<form method="get" action="/pages/create">
+    email: <input name="email">
+    age: <input name="age" type="number">
+    <input type="submit" value="Enviar">
+    Comment: <textarea name="comment"> </textarea>
+</form>
